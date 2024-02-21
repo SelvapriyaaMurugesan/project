@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booth Member Login</title>
+    <link rel="stylesheet" href="booth member login page.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Booth Member Login</h2>
+        <form action="#" method="post">
+            <label for="boothMemberId">Booth Member ID:</label>
+            <input type="number" id="boothMemberId" name="boothMemberId" placeholder="Enter Booth Member ID" style="padding: 10px;" required>
+            <div class="input-group">
+                <label for="aadharId">Aadhar ID:</label>
+                <input type="number" id="aadharId" name="aadharId" placeholder="Enter Aadhar ID" style="padding: 10px;" required minlength="12" maxlength="12">
+                <button type="submit">Verify</button>
+            </div>
+            <label for="biometric">Biometric:</label>
+            <input type="text" id="biometric" name="biometric" placeholder="Scan Biometric" required>
+        </form>
+    </div>
+</body>
+</html>
